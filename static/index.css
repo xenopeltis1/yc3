@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+body {
+    background-color: #0f0f0f;
+}
+
+.cizgi{
+    background-color: #ff0000;
+    height: 5px;
+}
+
+h1 {
+    font-family: "Rubik";
+    color: #bf0101;
+    margin-top: 50px;
+
+    font-weight: bold;
+}
+
+h2{
+    font-size: 12px;
+    text-align: center;
+
+    margin: 50px;
+    font-family: "Rubik";
+    color: white;
+}  
+
+h4 {
+    font-size: 12px;
+    text-align: center;
+
+
+    font-family: "Rubik";
+    color: white;
+}
+
+.inpt {
+    width: 500px;
+    height: 50px;
+
+    border-radius: 3px;
+    outline: none;
+
+    padding-inline: 10px;
+    color: rgb(82, 82, 82) ;
+}
+
+button {
+    height: 50px;
+    background-color: #bf0101!important;
+
+    font-family: "Rubik";
+    font-weight: bold;
+
+    border-radius: 3px;
+
+    color: white!important;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #171717;
+
+    height: 100px;
+    margin-top: 200px;
+
+}
+
+
+.download:hover {
+    text-shadow: 0 0 30px red, 0 0 50px red;
+}
+
+@media only screen and (max-width:800px){
+    h2 {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .footer {
+        margin-top: 150px;
+        height: 150px;
+    }
+
+    .inpt {
+        margin-top:50px;
+        width: 300px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
